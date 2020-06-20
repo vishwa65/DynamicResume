@@ -1,0 +1,103 @@
+table, th, td {
+  border: 1px solid black;
+   border-collapse: collapse;
+}
+body{
+	background-color: #00ffff;
+	margin: 5%;
+}
+#main{
+	background-color: #d9b3ff;
+	display: flex;
+	justify-content: space-around;
+	border-radius: 4%;
+}
+.sub{
+	background-color: #ffffb3;
+	width:25%;
+	margin: 4%;
+	height: 25%;
+	border-radius: 4%;
+	text-align: center;
+	box-shadow: 4px 4px 5px 5px ;
+
+}
+.sub2{
+	background-color: #ffffb3;
+	width:50%;
+	margin: 4%;
+	height: 25%;
+	border-radius: 4%;
+
+	box-shadow: 4px 4px 5px 5px ;
+	padding: 2%;
+}
+img{
+	width: 75%;
+	height: 30%;
+	border-radius: 20%;
+	margin: 4%;
+}
+.sub:hover,.sub2:hover{
+	color:#e67300;
+
+}
+
+
+/*media queries*/
+@media screen and (max-width:768px){
+	#main{
+		flex-direction: column;
+		
+	}
+	.sub{
+		width: 100%;
+	}
+	.sub2{
+		width: 100%;
+	}
+
+
+
+}
+@media screen and (min-width:768px ) and (max-width: 1280px){
+	#main{
+		flex-direction: row-reverse;
+		
+	}
+	.sub{
+		width: 100%;
+	}
+	.sub2{
+		width: 100%;
+	}
+
+
+}
+/*
+@media screen and (max-width:425px ){
+	#main{
+		flex-direction: row-reverse;
+		
+	}
+	.sub{
+		width: 100%;
+	}
+	.sub2{
+		width: 100%;
+	}
+
+
+}
+@media screen and (min-width: 426px) and (max-width: 768px){
+	#main{
+		flex-direction: column;
+
+	}
+	.sub{
+		background-color: #ddd;
+	}
+	.sub2{
+		background-color: #ddd;
+	}
+}*/

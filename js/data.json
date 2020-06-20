@@ -1,0 +1,22 @@
+{
+	"details":{
+		"prof":"FullStackDeveloper",
+		"name":"Ram",
+		"email":"123@gmail.com"
+	},
+	"cardsdata":[
+		{
+			"name":"RGUKT",
+			"percentage":90,
+			"yop":2019
+		},
+		{
+			"name":"M EMH S",
+			"percentage":95,
+			"yop":2016
+		}
+	],
+	"carrier":{
+		"carrierobj":"carrier objectives"
+	}
+}
